@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilan Trans</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #939292;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Times New Roman', serif;
+        }
+        .navbar {
+            background-color: #505050;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #f5f5f5;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-brand img {
+            max-height: 30px;
+            margin-right: 10px;
+        }
+        .navbar-brand h2 {
+            margin: 0;
+            line-height: 1.5;
+        }
+        .navbar-nav .nav-link {
+            color: #f5f5f5;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #b3b3b3;
+        }
+        .running-text {
+            background-color: #939292;
+            color: #fff;
+            padding: 5px 0;
+            font-size: 1rem;
+            text-align: center;
+            overflow: hidden;
+        }
+        .hero-image {
+            background: url('image/hero.png') center/cover no-repeat;
+            height: 50vh;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.248);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-overlay h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+        }
+        article {
+            text-align: justify;
+        }
+        .whatsapp-button {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .whatsapp-button a {
+            background-color: #25d366;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .whatsapp-button a:hover {
+            background-color: #1ebe57;
+            text-decoration: none;
+        }
+        .whatsapp-button img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="image/logo.png" alt="Logo Dilan Trans" class="img-fluid rounded-circle" style="max-height: 40px; width: 40px; object-fit: cover; margin-right: 10px;">
+            <h2>Dilan Trans</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="layanan_jasa_travel_bandung.html">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang_kami_travel_bandung.html">Tentang Kami</a>
+                </li>
+                <!-- New Dropdown for WhatsApp and Email -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kontak
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="https://wa.me/qr/T6EOVJXDTXWCH1" target="_blank">
+                                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/whatsapp.svg" alt="WhatsApp" style="filter: invert(1); width: 20px; height: 20px;">
+                                WhatsApp
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="mailto:dilantrans5@gmail.com">
+                                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/envelope.svg" alt="Email" style="filter: invert(1); width: 20px; height: 20px;">
+                                dilantrans5@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!-- Running Text -->
+    <div class="running-text">
+        <marquee>Selamat datang di Dilan Trans - Menyediakan layanan mobil travel yang nyaman, aman, dan tepat waktu.</marquee>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-image">
+        <div class="hero-overlay">
+            <b><h2>Nyaman di Perjalanan, Aman Sampai Tujuan!</h2></b>
+        </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/qr/T6EOVJXDTXWCH1" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/whatsapp.svg" alt="WhatsApp" style="filter: invert(1);">
+            Hubungi Kami
+        </a>
+    </div>
+
+
+
+<!-- Layanan Kami Section -->
+<div class="container mt-5">
+    <h3 class="text-center mb-4">Layanan Kami</h3>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- Service 1 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/service (2).png" class="card-img-top" alt="Layanan 1">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel A</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/service (1).png" class="card-img-top" alt="Layanan 2">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel B</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/service (2).jpeg" class="card-img-top" alt="Layanan 3">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel C</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/service (3).png" class="card-img-top" alt="Layanan 4">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel D</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- Service 1 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/garasi1.jpg" class="card-img-top" alt="Layanan 1">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel A</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/garasi1.jpg" class="card-img-top" alt="Layanan 2">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel B</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/garasi1.jpg" class="card-img-top" alt="Layanan 3">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel C</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column justify-content-between">
+                <img src="image/garasi1.jpg" class="card-img-top" alt="Layanan 4">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title text-center">Layanan Travel D</h5>
+                    <p class="card-text text-center">Mulai dari Rp. 250.000,00</p>
+                    <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="btn btn-success" target="_blank">Hubungi via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- WhatsApp Button -->
+     <div class="whatsapp-button">
+        <a href="https://wa.me/qr/T6EOVJXDTXWCH1" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/whatsapp.svg" alt="WhatsApp" style="filter: invert(1);">
+            Lainnya
+        </a>
+    </div>
+</div>
+
+<Br></Br>
+<br>
+
+ <!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <!-- Logo atas Kontak Kami -->
+        <div class="mb-3">
+            <img src="image/logo.png" alt="Dilan Trans Logo" class="img-fluid rounded-circle" style="max-height: 50px; width: 50px; object-fit: cover;">
+        </div>
+
+        <!-- Contact Information -->
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h5>Kontak Kami</h5>
+                <p>Email: <a href="mailto:dilantrans5@gmail.com" class="text-white">dilantrans5@gmail.com</a></p>
+                <p>Telepon: <a href="tel:+623162427678" class="text-white">+62 123 456 789</a></p>
+            </div>
+            <!-- Social Media Links -->
+            <div class="col-md-4 mb-3">
+                <h5>Sosial Media</h5>
+                <a href="https://wa.me/qr/T6EOVJXDTXWCH1" class="text-white me-3" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/whatsapp.svg" alt="WhatsApp" style="width: 24px; height: 24px; filter: invert(1);">
+                </a>
+                <a href="mailto:dilantrans5@gmail.com" class="text-white me-3" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/envelope.svg" alt="Email" style="width: 24px; height: 24px; filter: invert(1);">
+                </a>
+            </div>
+            <!-- Location -->
+            <div class="col-md-4 mb-3">
+                <h5>Alamat</h5>
+                <p>Jl.Cagak, Ciwaru, Desa citalem, Kec.cipongkor, Kab.Bandung Barat, Prov.Jawa Barat (40564).
+                    </p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="mt-4">
+            <p>&copy; 2025 Dilan Trans. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
